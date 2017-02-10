@@ -1,0 +1,32 @@
+<h1>
+  {{title}}
+</h1>
+
+<input name="search" #searchTerm>
+
+<button (click)="performSearch(searchTerm)">Search</button>
+
+<ul *ngFor="let giphy of giphies">
+  <li id="{{giphy.id}}">
+    <img src="{{giphy.images.original.url}}">
+  </li>
+</ul>
+2d1389d6835bc83c11a8d31efb5e08f7eb599b40
+
+
+<h3>Weather Data</h3>
+{{weatherResults | json}}
+<hr>
+
+
+<h3>locations</h3>
+<div  style="height:10rem;overflow-y: scroll">
+<ul *ngFor="let location of stationLocations">
+  <li> {{location.oid}} -- {{location.city}} --{{location.stateProvinceCd}}
+    <hr>
+    <span style="font-size:9px"> {{location | json}}</span>
+  </li>
+</ul>
+</div>
+<hr>
+{{stationLocations | json}}

@@ -1,0 +1,188 @@
+[{
+  "city":{
+    "id": 4684888,
+    "name": "Dallas",
+    "coord": {
+      "lon": -96.8067,
+      "lat": 32.7831
+    },
+    "country": "US",
+    "population": 0
+  },
+  "cod": "200",
+  "message": 0.2575777,
+  "cnt": 7,
+  "list": [
+    {
+      "dt": 1486663200,
+      "temp": {
+        "day": 58.48,
+        "min": 47.37,
+        "max": 64.65,
+        "night": 47.37,
+        "eve": 60.35,
+        "morn": 58.48
+      },
+      "pressure": 1021.99,
+      "humidity": 53,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 3.16,
+      "deg": 81,
+      "clouds": 0
+    },
+    {
+      "dt": 1486749600,
+      "temp": {
+        "day": 64.42,
+        "min": 45.12,
+        "max": 71.73,
+        "night": 67.21,
+        "eve": 71.4,
+        "morn": 45.12
+      },
+      "pressure": 1016.13,
+      "humidity": 59,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 8.77,
+      "deg": 198,
+      "clouds": 0
+    },
+    {
+      "dt": 1486836000,
+      "temp": {
+        "day": 77.67,
+        "min": 65.44,
+        "max": 83.46,
+        "night": 73.89,
+        "eve": 81.93,
+        "morn": 65.44
+      },
+      "pressure": 1009.19,
+      "humidity": 61,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 8.52,
+      "deg": 210,
+      "clouds": 0
+    },
+    {
+      "dt": 1486922400,
+      "temp": {
+        "day": 68.22,
+        "min": 52.7,
+        "max": 68.95,
+        "night": 52.7,
+        "eve": 60.33,
+        "morn": 68.95
+      },
+      "pressure": 1008.15,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 10.37,
+      "deg": 12,
+      "clouds": 1
+    },
+    {
+      "dt": 1487008800,
+      "temp": {
+        "day": 51.94,
+        "min": 43.95,
+        "max": 51.94,
+        "night": 43.95,
+        "eve": 47.82,
+        "morn": 49.93
+      },
+      "pressure": 1012.74,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 502,
+          "main": "Rain",
+          "description": "heavy intensity rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 7.56,
+      "deg": 52,
+      "clouds": 99,
+      "rain": 16.39
+    },
+    {
+      "dt": 1487095200,
+      "temp": {
+        "day": 45.81,
+        "min": 41.97,
+        "max": 48.24,
+        "night": 44.96,
+        "eve": 48.24,
+        "morn": 41.97
+      },
+      "pressure": 1010.49,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 502,
+          "main": "Rain",
+          "description": "heavy intensity rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 6.41,
+      "deg": 26,
+      "clouds": 96,
+      "rain": 23.36
+    },
+    {
+      "dt": 1487181600,
+      "temp": {
+        "day": 49.53,
+        "min": 39.36,
+        "max": 52.27,
+        "night": 39.36,
+        "eve": 52.27,
+        "morn": 43.93
+      },
+      "pressure": 1005.98,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "moderate rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 4.49,
+      "deg": 7,
+      "clouds": 95,
+      "rain": 7.03
+    }
+  ]
+}]
