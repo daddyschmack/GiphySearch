@@ -15,6 +15,9 @@
 
 
 <h3>Weather Data</h3>
+<ul *ngFor="let weather of weatherResults">
+  <li>max: {{weather.temp.max}}   -  min: {{weather.temp.min}}</li>
+</ul>
 {{weatherResults | json}}
 <hr>
 

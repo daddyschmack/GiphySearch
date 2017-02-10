@@ -35,8 +35,6 @@ export class WeatherService{
     return this.http.get(this.weatherUrl)
     .do(res => console.log('full object from getRates', res))
       .map((res: Response) => res.json())
-      .flatMap(res => res.list)
-    .do(res => console.log('res after flat map is', res));
   }
 
   getStationLocations(): Observable <any> {

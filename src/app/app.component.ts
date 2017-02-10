@@ -34,9 +34,9 @@ export class AppComponent implements OnInit{
   public returnWeather() {
     let weather: any = [];
     console.log('get weather');
-    weather = this._weatherService.getWeather();
+    weather = this._weatherService.getWeatherData();
     weather.subscribe(
-      data => {this.weatherResults = data;
+      data => {this.weatherResults = data.list;
         console.log('not filtered')},
     )
   }
